@@ -17,8 +17,14 @@ homeworks/
 		Homework01.md
 		Solution.hs
 	hw2/
+		Homework02.md
+		Solution.hs
 	hw3/
+		Homework03.md
+		Solution.hs
 	hw4/
+		Homework04.md
+		Solution.hs
 	hw5/
 project/
 ```
