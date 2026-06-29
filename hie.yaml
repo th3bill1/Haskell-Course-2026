@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "./project/src"
+      component: "ui-layout-lang:lib:ui-layout-lang"
+    - path: "./project/app"
+      component: "ui-layout-lang:exe:ui-layout-lang"
+    - path: "./project/test"
+      component: "ui-layout-lang:test:ui-layout-lang-test"

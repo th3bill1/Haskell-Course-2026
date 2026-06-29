@@ -1,0 +1,35 @@
+cabal-version: 2.4
+name: ui-layout-lang
+version: 0.1.0.0
+build-type: Simple
+
+library
+  exposed-modules:
+      UiLayoutLang
+      UiLayoutLang.Layout
+      UiLayoutLang.Parser
+      UiLayoutLang.RenderSvg
+      UiLayoutLang.Types
+  hs-source-dirs: src
+  build-depends: base >= 4.17 && < 5
+  default-language: Haskell2010
+  ghc-options: -Wall
+
+executable ui-layout-lang
+  main-is: Main.hs
+  hs-source-dirs: app
+  build-depends:
+      base >= 4.17 && < 5
+    , ui-layout-lang
+  default-language: Haskell2010
+  ghc-options: -Wall
+
+test-suite ui-layout-lang-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  hs-source-dirs: test
+  build-depends:
+      base >= 4.17 && < 5
+    , ui-layout-lang
+  default-language: Haskell2010
+  ghc-options: -Wall
