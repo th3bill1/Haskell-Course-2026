@@ -1,0 +1,28 @@
+# Cabal build output
+dist-newstyle/
+dist/
+
+# Stack build output, in case Stack is used locally
+.stack-work/
+
+# Haskell Language Server / GHC artifacts
+.hie/
+*.hi
+*.hie
+*.o
+*.dyn_hi
+*.dyn_o
+
+# Local generated renderer output
+out.svg
+dashboard.svg
+project/examples/images/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
