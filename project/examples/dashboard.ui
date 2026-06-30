@@ -1,0 +1,12 @@
+window "Dashboard" 960 x 540 {
+  col {
+    box { width: 100%, height: 64, color: "#264653" }
+    row { width: 100%, height: auto, color: "#e9c46a"
+      box { width: 220, height: 100%, color: "#2a9d8f" }
+      col { width: auto, height: 100%
+        box { width: 100%, height: 45%, color: "#f4a261" }
+        box { width: 100%, height: auto, color: "#e76f51" }
+      }
+    }
+  }
+}

@@ -28,6 +28,13 @@ Write an SVG:
 cabal run ui-layout-lang -- path\to\layout.ui --svg out.svg
 ```
 
+Run one of the included examples:
+
+```powershell
+cabal run ui-layout-lang -- project\examples\sidebar.ui
+cabal run ui-layout-lang -- project\examples\dashboard.ui --svg dashboard.svg
+```
+
 This project uses only `base`. Cabal is the only required project build tool.
 
 If Haskell Language Server reports that it cannot find modules such as `UiLayoutLang.Types`, open the repository root or the `project/` directory in the IDE and reload HLS. The root `hie.yaml` maps `project/src`, `project/app`, and `project/test` to the correct Cabal components.

@@ -1,0 +1,7 @@
+window "Overflow" 300 x 180 {
+  row {
+    box { width: 180, height: 100%, color: "#8ecae6" }
+    box { width: 180, height: 100%, color: "#219ebc" }
+    box { width: 180, height: 100%, color: "#023047" }
+  }
+}
